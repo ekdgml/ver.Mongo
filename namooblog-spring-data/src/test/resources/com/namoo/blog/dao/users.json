@@ -1,0 +1,23 @@
+{
+	"sequences" : [
+		{ "_id" : "blog", "seq" : 1 }
+	],
+
+	"users" : [
+		{
+			"_id"   : "wntjd",
+			"name"    : "이주성",
+			"email" : "wntjd@naver.com"
+		},
+		{
+			"_id"   : "ekdgml",
+			"name"    : "박상희",
+			"email" : "ekdgml@naver.com"
+		},
+		{
+			"_id"   : "ekdgml2",
+			"name"    : "박상희",
+			"email" : "ekdgml@naver.com"
+		}
+	] 
+}

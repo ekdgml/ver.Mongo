@@ -1,0 +1,51 @@
+{
+	"sequences" : [
+		{ "key" : "blog", "value" : 1 }
+	] ,
+	
+	"blogs" : [
+		{
+			"blogId" : 1,
+			"name" : "blog1",
+			"ownerId" : "ekdgml"
+		},
+		{
+			"blogId" : 2,
+			"name" : "blog1",
+			"ownerId" : "wntjd"
+		},
+		{
+			"blogId" : 3,
+			"name" : "blog1",
+			"ownerId" : "hong"
+		}
+	] ,
+	
+	"posts" : [
+		{
+			"blogId" : 1,
+			"postId" : 1,
+			"subject" : "post1",
+			"contents" : "post1-Contents",
+			"comments" : [
+							{
+								"commentId" : 1,
+								"comment" : "comment1",
+								"commenterId" : "ekdgml"
+							}
+						]
+		},
+		{
+			"blogId" : 1,
+			"postId" : 2,
+			"subject" : "post1",
+			"contents" : "post2-Contents",
+		},
+		{
+			"blogId" : 2,
+			"postId" : 3,
+			"subject" : "post1",
+			"contents" : "post3-Contents",
+		}
+	]
+}

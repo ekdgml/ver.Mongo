@@ -1,0 +1,46 @@
+{
+	"sequences" : [
+		{ "_id" : "blog",    "seq" : 1 },
+		{ "_id" : "post",    "seq" : 1 },
+		{ "_id" : "comment", "seq" : 1 }
+	],
+	
+	"users" : [
+		{
+			"_id"   : "ekdgml",
+			"name"    : "박상희",
+			"email" : "ekdgml@naver.com"
+		},
+		{
+			"_id"   : "wntjd",
+			"name"    : "이주성",
+			"email" : "wntjd@naver.com"
+		}
+	] ,
+	
+	"blogs" : [
+		{
+			"_id"   : "1",
+			"name"    : "NamooBlog",
+			"ownerId" : "ekdgml"
+		}
+	],
+	
+	"posts" : [
+		{
+			"_id" : "1",
+			"blogId" : "1",
+			"subject" : "첫번째 포스트",
+			"contents" : "내용입니다."
+		}
+	],
+	
+	"comments" : [
+		{
+			"_id" : "1",
+			"comment" : "코멘트!",
+			"commenterId" : "wntjd",
+			"postId" : "1"
+		}
+	]
+}

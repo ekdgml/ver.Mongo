@@ -1,0 +1,42 @@
+{
+	"users" : [
+		{
+			"_id"   : "wntjd",
+			"name"    : "이주성",
+			"email" : "wntjd@naver.com",
+			"password" : "1234"
+		},
+		{
+			"_id"   : "ekdgml",
+			"name"    : "박상희",
+			"email" : "ekdgml@naver.com",
+			"password" : "abcd"
+		},
+		{
+			"_id"   : "ekdgml2",
+			"name"    : "박상희",
+			"email" : "ekdgml@naver.com",
+			"password" : "asdf"
+		},
+		{
+			"_id"   : "hyunohkim",
+			"name"    : "김현오",
+			"email" : "hyunohkim@nextree.co.kr",
+			"password" : "1234",
+			"followings" : [
+						{
+							"_id"   : "ekdgml",
+							"name"    : "박상희",
+							"email" : "ekdgml@naver.com",
+						}
+					],
+			"followers" : [
+						{
+							"_id"   : "wntjd",
+							"name"    : "이주성",
+							"email" : "wntjd@naver.com",
+						}
+					]
+		}
+	] 
+}

@@ -1,0 +1,26 @@
+{
+	"sequences" : [
+		{ "_id" : "blog", "seq" : 1 }
+	],
+	
+	"users" : [
+		{
+			"_id"   : "ekdgml",
+			"name"    : "박상희",
+			"email" : "ekdgml@naver.com"
+		},
+		{
+			"_id"   : "wntjd",
+			"name"    : "이주성",
+			"email" : "wntjd@naver.com"
+		}
+	],
+	 
+	"blogs" : [
+		{
+			"_id"   : "1",
+			"name"    : "NamooBlog",
+			"ownerId" : "ekdgml"
+		}
+	] 
+}

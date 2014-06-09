@@ -1,0 +1,23 @@
+{
+	"sequences" : [
+		{ "key" : "blog", "value" : 1 }
+	] ,
+	
+	"blogs" : [
+		{
+			"blogId" : 1,
+			"name" : "blog1",
+			"ownerId" : "ekdgml"
+		},
+		{
+			"blogId" : 2,
+			"name" : "blog1",
+			"ownerId" : "wntjd"
+		},
+		{
+			"blogId" : 3,
+			"name" : "blog1",
+			"ownerId" : "hong"
+		}
+	]
+}

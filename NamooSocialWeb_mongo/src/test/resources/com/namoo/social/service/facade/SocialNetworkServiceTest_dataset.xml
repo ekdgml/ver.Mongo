@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<!-- user_tb -->
+	<user_tb user_id="hyunohkim" user_nm="김현오" email="hyunohkim@nextree.co.kr" password="1234" />
+	<user_tb user_id="gdhong"    user_nm="홍길동" email="gdhong@nextree.co.kr"    password="1234" />
+	<user_tb user_id="yunakim"   user_nm="김연아" email="yunakim@nextree.co.kr"   password="1234" />
+	
+	<!-- usertouser_tb -->
+	<usertouser_tb from_id="hyunohkim" to_id="gdhong" />
+	<usertouser_tb from_id="gdhong"    to_id="hyunohkim" />
+	
+	<!-- message_tb -->
+	<message_tb msg_id="3" contents="길동이의 첫번째 트윗." writer_id="gdhong"    reg_dt="2014-04-23 20:55:12" />
+	<message_tb msg_id="2" contents="두번째 글입니다."     writer_id="hyunohkim" reg_dt="2014-04-23 20:42:11" />
+	<message_tb msg_id="1" contents="첫번째 글입니다."     writer_id="hyunohkim" reg_dt="2014-04-23 20:11:11" />
+</dataset>
